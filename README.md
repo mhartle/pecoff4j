@@ -6,23 +6,11 @@ PE/COFF 4J is a java engineering library for portable executables, the format us
 * Assembler for creating and modifying executables and DLLs.
 * Resource directory parser - understands version info, icons.
 
-This is a fork of http://sourceforge.net/projects/pecoff4j/
-
-Imported from CVS on May 24th, 2014
-
-[![Build Status](https://drone.io/github.com/kichik/pecoff4j/status.png)](https://drone.io/github.com/kichik/pecoff4j/latest)
-
-## Downloads
-
-https://drone.io/github.com/kichik/pecoff4j/files
+This is a fork of https://github.com/kichik/pecoff4j (which again was originally imported from the CVS of http://sourceforge.net/projects/pecoff4j/ on May 24th, 2014, and has received some fixes since then), cleaned up and turned into a Maven project, using the pom.xml of https://github.com/afonsohmm/pecoff4j-maven as a basis. This project just allows you to use the forked version of kichik's pecoff4j as a Maven dependency through [JitPack.io](https://jitpack.io/) following the instructions on their web site - nothing more and nothing less.
 
 ## License
 
 Sources are licensed under [Common Public License v1.0](http://www.eclipse.org/legal/cpl-v10.html)
-
-## New Features
-
-The project was forked to implement version string parsing for a [StackOverflow question](http://stackoverflow.com/questions/23845480/how-to-get-windows-file-details/23848792).
 
 ### Example
 
@@ -78,6 +66,3 @@ ProductName = Microsoft® Windows® Operating System
 ProductVersion = 6.1.7600.16385
 ```
 
-## Other Forks
-
-[jonnyzzz/PE](https://github.com/jonnyzzz/PE) has even more features and probably got much more love than this fork.
